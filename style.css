@@ -323,7 +323,17 @@ button:focus {
     line-height: 20px;
 }
 
-/* ----- Why me ----- */
+/* ----- Why choose me ----- */
+
+.stripe {
+    margin-top: 30px;
+    background-image: linear-gradient(240deg, #eaee44, #90ec19);
+    padding: 1rem;
+    
+    transform: rotate(-3deg) skew(-3deg);
+}
+
+
 
 .service-area {
     position: relative;
@@ -354,7 +364,7 @@ button:focus {
     border: 1px solid #ffc900;
     -webkit-transition: .3s;
     transition: .3s;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     position: relative;
     z-index: 1;
 }
