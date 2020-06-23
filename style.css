@@ -115,7 +115,7 @@ button:focus {
 
 .cube1,
 .cube2 {
-    background-color: #ffc900;
+    background-color: #B0DFE6;
     width: 25px;
     height: 25px;
     position: absolute;
@@ -263,11 +263,11 @@ button:focus {
     background-position: center;
     background-color: #ffc900;
 }
-
+/* 
 .about-content h2 span {
     color: #ffc900;
     font-size: 100%;
-}
+} */
 
 .about-content h4 {
     font-weight: 400;
@@ -329,6 +329,23 @@ button:focus {
     line-height: 20px;
 }
 
+#button-style{
+    color: #000;
+    background-color: #B0DFE6;
+    font-weight: 600;
+}
+#button-style:hover{
+    background-color: #000;
+    color: #B0DFE6;
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+   border-radius: 50px;
+   -webkit-transition: .5s;
+   transition: .5s;
+   border-color: none !important;
+
+   }
 /* ----- Why choose me ----- */
 
 .stripe {
