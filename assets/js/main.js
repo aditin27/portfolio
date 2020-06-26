@@ -1,21 +1,16 @@
 (function ($) {
     "use strict";
 
-    /*:::::::::::::::::::::::::::::::::::
-            Navbar Area
-    :::::::::::::::::::::::::::::::::::*/
-
+    
      // Navbar Sticky
-    $(window).scroll(function () {
-        var scroll = $(window).scrollTop();
-
-        if (scroll >= 1) {
-            $(".navbar").addClass("bg-primari");
-        } else {
-            $(".navbar").removeClass("bg-primari");
-        }
-    });
-
+    
+     $(window).scroll(function(){
+        var sticky = $('.sticky'),
+            scroll = $(window).scrollTop();
+      
+        if (scroll >= 100) sticky.addClass('fixed');
+        else sticky.removeClass('fixed');
+      });
 
     //Smoth Scroll
     $(function () {
@@ -28,25 +23,22 @@
         });
     });
 
-    /*==========================
-        Hero Area Slider
-    ============================*/
+    /* MAIN HERO AREA*/
 
-    $('.hero-area-slids').owlCarousel({
-        items: 1,
-        loop: true,
-        nav: false,
-        doots: false,
-        autoplay: true,
-        animateOut: 'fadeOutRight',
-        animateIn: 'fadeIn'
+    // $('.hero-area-slids').owlCarousel({
+    //     items: 1,
+    //     loop: true,
+    //     nav: false,
+    //     doots: false,
+    //     autoplay: true,
+    //     animateOut: 'fadeOutRight',
+    //     animateIn: 'fadeIn'
 
-    });
+    // });
     //Wow Animation
     new WOW().init();
-    /*==========================
-        Hero Title typer
-    ============================*/
+
+    /*TYPED JS*/
     var element = $('.typed');
 
     $(function () {
@@ -58,9 +50,7 @@
         });
     });
 
-    /*::::::::::::::::::::::::::::::::::::
-       Portfolio Section
-    ::::::::::::::::::::::::::::::::::::*/
+    /*PORTFOLIO SECTION*/
 
     lightbox.option({
         'imageFadeDuration': 800,
@@ -75,19 +65,17 @@
        Testimonial Section
     ::::::::::::::::::::::::::::::::::::*/
 
-    $('.testimonials').owlCarousel({
-        items: 1,
-        loop: true,
-        autoplay: true,
-        nav: true,
-        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-        dots: false
-    });
+    // $('.testimonials').owlCarousel({
+    //     items: 1,
+    //     loop: true,
+    //     autoplay: true,
+    //     nav: true,
+    //     navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+    //     dots: false
+    // });
 
 
-    /*::::::::::::::::::::::::::::::::::::
-       Contact Area 
-    ::::::::::::::::::::::::::::::::::::*/
+    /* CONTACT ME  */
     var form = $('#contact-form');
 
     var formMessages = $('.form-message');
@@ -118,10 +106,7 @@
             });
     });
     
-    
-    /*::::::::::::::::::::::::::::::::::::
-    Preloader
-    ::::::::::::::::::::::::::::::::::::*/
+    /* PRELOADER */
     $(window).on('load', function () {
         $('.preloader').fadeOut();
     });

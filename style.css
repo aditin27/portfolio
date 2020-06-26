@@ -202,6 +202,11 @@ button:focus {
     letter-spacing: .18rem;
 }
 
+.sticky {
+    position: fixed;
+    top:0; left:0;
+    width: 100%; }
+
 /* ----- Main Area -----*/
 
 .hero-aria,
