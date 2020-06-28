@@ -746,8 +746,8 @@ input:-webkit-autofill {
 }
 
 .form-control:focus {
-    box-shadow: none;
-    border: 2px solid red;
+    box-shadow: #B0DFE6;
+   
 }
 
 .form-btn .button {
@@ -760,23 +760,11 @@ input:-webkit-autofill {
     transition: .3S;
 }
 
-.form-btn .button:hover {
-    color: #000;
-    background-color: #ffc900;
-}
-
 .form-message {
     margin-top: 15px;
     font-weight: 700;
 }
 
-.form-message.error {
-    color: #f00;
-}
-
-.form-message.success {
-    color: #000;
-}
 
 
 /* ----- Footer  ----- */
