@@ -28,12 +28,6 @@
         padding: 15px 15px;
     }
     /*::::::::::::::::::::::::::::::::::::
-       Hero Area 
-    ::::::::::::::::::::::::::::::::::::*/
-    .hero-content h2 {
-        font-size: 70px;
-    }
-    /*::::::::::::::::::::::::::::::::::::
        About Area
     ::::::::::::::::::::::::::::::::::::*/
     .about-content {
@@ -96,27 +90,12 @@
     /*::::::::::::::::::::::::::::::::::::
        Hero Area 
     ::::::::::::::::::::::::::::::::::::*/
-    .hero-aria,
-    .hero-area-slids,
-    .single-slider {
-        height: 440px;
-    }
-    .hero-content h2 {
-        font-size: 30px;
-    }
-
-    .hero-content h3 {
-        font-size: 15px;
-        margin: 15px 0;
-    }
-
+    
+    
     .hero-aria::after {
         width: 80%;
     }
-    .hero-content {
-        max-width: 70%;
-    }
-
+    
     /*::::::::::::::::::::::::::::::::::::
        Featured Area
     ::::::::::::::::::::::::::::::::::::*/
@@ -264,15 +243,7 @@
     /*::::::::::::::::::::::::::::::::::::
        Hero Area 
     ::::::::::::::::::::::::::::::::::::*/
-    .hero-content h2 {
-        font-size: 50px;
-    }
-
-    .hero-content h3 {
-        font-size: 20px;
-        margin: 15px 0;
-    }
-
+    
     .hero-aria::after {
         width: 70%;
     }
