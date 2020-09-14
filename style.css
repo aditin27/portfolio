@@ -211,6 +211,8 @@ button:focus {
 .hero-aria{
     background-color: #EEE2DC !important;
    padding: 25px;
+   margin-top: 50px !important;
+   padding-top: 20px;
    }
 
 .hero-content {
