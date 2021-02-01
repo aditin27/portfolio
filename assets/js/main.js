@@ -43,7 +43,7 @@
 
     $(function () {
         element.typed({
-            strings: ["UI/ UX Developer.", "Web Developer."],
+            strings: ["Web Designer/ Developer", " UI Designer."],
             typeSpeed: 100,
             loop: true,
             autoplay: true,
