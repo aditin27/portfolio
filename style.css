@@ -357,6 +357,8 @@ button:focus {
     /* margin-bottom: 30px; */
     position: relative;
     z-index: 1;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
 }
 
 .single-service h2,
@@ -698,4 +700,14 @@ input:-webkit-autofill {
     transition: .3s;
     font-family: 'Acme', sans-serif;
     letter-spacing: .2rem;
+}
+
+.pt-2{
+    padding-top: 40px !important;
+}
+.pt-4{
+    padding-top: 50px !important;
+}
+.pb-2{
+padding-bottom: 25px !important;
 }

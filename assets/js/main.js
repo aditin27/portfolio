@@ -43,7 +43,7 @@
 
     $(function () {
         element.typed({
-            strings: ["Web Designer/ Developer", " UI Designer."],
+            strings: [ "UX Designer" , " UI Designer" , "Web Designer" ],
             typeSpeed: 100,
             loop: true,
             autoplay: true,
@@ -59,20 +59,6 @@
     });
 
     $('.portfolio-area').mixItUp();
-
-
-    /*::::::::::::::::::::::::::::::::::::
-       Testimonial Section
-    ::::::::::::::::::::::::::::::::::::*/
-
-    // $('.testimonials').owlCarousel({
-    //     items: 1,
-    //     loop: true,
-    //     autoplay: true,
-    //     nav: true,
-    //     navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-    //     dots: false
-    // });
 
 
     /* CONTACT ME  */
